@@ -12,4 +12,9 @@ public class ssiaController {
 		return "hello ssia-ch2-ex1";
 	}
 
+@GetMapping(path = "/bye")
+	
+	public String bye() {
+		return "bye ssia-ch2-ex1";
+	}
 }
